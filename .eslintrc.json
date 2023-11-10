@@ -36,7 +36,6 @@
       "react/jsx-filename-extension": "off",
       "react/jsx-props-no-spreading": "warn",
       "import/prefer-default-export": "off",
-      "no-nested-ternary": "off",
       "no-param-reassign": "off",
       "linebreak-style": "off",
       "no-console": ["error", { "allow": ["tron"] }],
