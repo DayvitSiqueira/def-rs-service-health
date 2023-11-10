@@ -1,0 +1,8 @@
+node_modules
+coverage
+.next
+.husky
+documentation
+scripts
+__mocks__
+jest.config.js

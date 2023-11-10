@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "prettier.disableLanguages": ["javascript"],
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "explorer.compactFolders": false
+}

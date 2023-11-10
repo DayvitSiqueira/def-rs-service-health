@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+#!/usr/bin/env bash
+COMMIT_MESSAGE=$(git show --pretty=format:%s -s HEAD)
+
+requiredPattern="([\[][A-Z]{4,7}[-][0-9]{1,4}[\]])([ ])([\w\s]{5,40})"
