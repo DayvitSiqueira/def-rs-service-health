@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingTable Component matches the snapshot 1`] = `
+<div>
+  <table
+    class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="text-xs text-gray-700 uppercase dark:text-gray-400 text-center"
+    >
+      <tr>
+        <th
+          class="p-4 whitespace-nowrap bg-gray-100 dark:bg-gray-800 border-b-2 h-12"
+          scope="col"
+        />
+        <th
+          class="p-4 whitespace-nowrap bg-gray-100 dark:bg-gray-800 border-b-2 h-12"
+          scope="col"
+        />
+        <th
+          class="p-4 whitespace-nowrap bg-gray-100 dark:bg-gray-800 border-b-2 h-12"
+          scope="col"
+        />
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          class="p-4"
+        >
+          <div
+            class="animate-pulse"
+            role="status"
+          >
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-5"
+            />
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-5"
+            />
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-2"
+            />
+          </div>
+        </td>
+        <td
+          class="p-4"
+        >
+          <div
+            class="animate-pulse"
+            role="status"
+          >
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-5"
+            />
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-5"
+            />
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-2"
+            />
+          </div>
+        </td>
+        <td
+          class="p-4"
+        >
+          <div
+            class="animate-pulse"
+            role="status"
+          >
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-5"
+            />
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-5"
+            />
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-2"
+            />
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`LoadingTable matches the snapshot 1`] = `
+<div>
+  <table
+    class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="text-xs text-gray-700 uppercase dark:text-gray-400 text-center"
+    >
+      <tr>
+        <th
+          class="p-4 whitespace-nowrap bg-gray-100 dark:bg-gray-800 border-b-2 h-12"
+          scope="col"
+        />
+        <th
+          class="p-4 whitespace-nowrap bg-gray-100 dark:bg-gray-800 border-b-2 h-12"
+          scope="col"
+        />
+        <th
+          class="p-4 whitespace-nowrap bg-gray-100 dark:bg-gray-800 border-b-2 h-12"
+          scope="col"
+        />
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          class="p-4"
+        >
+          <div
+            class="animate-pulse"
+            role="status"
+          >
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-5"
+            />
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-5"
+            />
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-2"
+            />
+          </div>
+        </td>
+        <td
+          class="p-4"
+        >
+          <div
+            class="animate-pulse"
+            role="status"
+          >
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-5"
+            />
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-5"
+            />
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-2"
+            />
+          </div>
+        </td>
+        <td
+          class="p-4"
+        >
+          <div
+            class="animate-pulse"
+            role="status"
+          >
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-5"
+            />
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-5"
+            />
+            <div
+              class="h-11 bg-gray-200 rounded-lg dark:bg-gray-700 w-90 mb-2"
+            />
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

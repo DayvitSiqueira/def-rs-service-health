@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServicesTable matches the snapshot 1`] = `
+<div>
+  <div
+    class="relative overflow-x-auto shadow-md sm:rounded-lg w-full"
+  >
+    <table
+      class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
+    >
+      <thead
+        class="text-xs text-gray-700 uppercase dark:text-gray-400 text-center"
+      >
+        <tr>
+          <th
+            class="p-4 whitespace-nowrap bg-gray-100 dark:bg-gray-800 border-b-2
+                  false
+                "
+            scope="col"
+          >
+            Serviço
+          </th>
+          <th
+            class="p-4 whitespace-nowrap bg-gray-100 dark:bg-gray-800 border-b-2
+                  false
+                "
+            scope="col"
+          >
+            Status
+          </th>
+          <th
+            class="p-4 whitespace-nowrap bg-gray-100 dark:bg-gray-800 border-b-2
+                  sticky right-0
+                "
+            scope="col"
+          >
+            Observação
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="border-b border-gray-200 dark:border-gray-700 text-center"
+        >
+          <td
+            class="p-4"
+          >
+            SERPRO
+          </td>
+          <td
+            class="p-4"
+          >
+            <span
+              class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300"
+            >
+              Disponível
+            </span>
+          </td>
+          <td
+            class="p-4"
+          />
+        </tr>
+        <tr
+          class="border-b border-gray-200 dark:border-gray-700 text-center"
+        >
+          <td
+            class="p-4"
+          >
+            Conselho Nacional de Justiça
+          </td>
+          <td
+            class="p-4"
+          >
+            <span
+              class="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300"
+            >
+              Instável
+            </span>
+          </td>
+          <td
+            class="p-4"
+          >
+            Pode apresentar lentidão - Manutenção Preventiva até 15/06/2023
+          </td>
+        </tr>
+        <tr
+          class="border-b border-gray-200 dark:border-gray-700 text-center"
+        >
+          <td
+            class="p-4"
+          >
+            Tribunal de Justiça
+          </td>
+          <td
+            class="p-4"
+          >
+            <span
+              class="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300"
+            >
+              Indisponível
+            </span>
+          </td>
+          <td
+            class="p-4"
+          >
+            Sem privisão de normalização
+          </td>
+        </tr>
+        <tr
+          class="border-b border-gray-200 dark:border-gray-700 text-center"
+        >
+          <td
+            class="p-4"
+          >
+            Gov.BR
+          </td>
+          <td
+            class="p-4"
+          >
+            <span
+              class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300"
+            >
+              Disponível
+            </span>
+          </td>
+          <td
+            class="p-4"
+          >
+            Manutenção preventiva prevista para 17/07/2023
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
