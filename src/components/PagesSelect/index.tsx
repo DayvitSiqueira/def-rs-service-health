@@ -1,24 +1,19 @@
+import React from 'react'
 import { Select } from '../Select'
+import { optionsDefault } from './constants'
 
-function PagesSelect() {
-  return (
-    <Select
-      options={[
-        {
-          value: '10',
-          label: '10',
-        },
-        {
-          value: '15',
-          label: '15',
-        },
-        {
-          value: '20',
-          label: '20',
-        },
-      ]}
-    />
-  )
+interface PagesSelectProps {
+  onChange: (selectedValue: string) => void
+}
+
+function PagesSelect({ onChange }: PagesSelectProps) {
+  const handleSelectChange = (value: string) => {
+    if (onChange) {
+      onChange(value)
+    }
+  }
+
+  return <Select options={optionsDefault} onChange={handleSelectChange} />
 }
 
 export default PagesSelect

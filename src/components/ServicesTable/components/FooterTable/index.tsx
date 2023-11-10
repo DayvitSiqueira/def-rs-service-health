@@ -1,7 +1,16 @@
 import PagesSelect from '@/components/PagesSelect'
-import Pagination from '@/components/Pagination'
 
-export default function FooterTable() {
+interface FooterTableProps {
+  onChange: (selectedValue: string) => void
+}
+
+export default function FooterTable({ onChange }: FooterTableProps) {
+  const handleSelectChange = (value: string) => {
+    if (onChange) {
+      onChange(value)
+    }
+  }
+
   return (
     <div className="flex flex-col items-end justify-end w-full mt-6 gap-6">
       <div className="flex items-end justify-between w-full mt-6 gap-6">
@@ -9,10 +18,8 @@ export default function FooterTable() {
           <p className="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap">
             Resultados por página:
           </p>
-          <PagesSelect />
+          <PagesSelect onChange={handleSelectChange} />
         </div>
-
-        <Pagination />
       </div>
     </div>
   )

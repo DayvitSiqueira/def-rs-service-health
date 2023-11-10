@@ -1,9 +1,27 @@
-import { SelectProps } from './types'
+import React, { ChangeEvent } from 'react'
 
-export function Select({ options, color = 'green' }: SelectProps) {
+interface SelectOption {
+  value: string
+  label: string
+}
+
+interface SelectProps {
+  options: SelectOption[]
+  onChange: (selectedValue: string) => void
+}
+
+export function Select({ options, onChange }: SelectProps) {
+  const handleSelectChange = (event: ChangeEvent<HTMLSelectElement>) => {
+    const selectedValue = event.target.value
+    if (onChange) {
+      onChange(selectedValue)
+    }
+  }
+
   return (
     <select
-      className={`max-w-lg bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-${color}-500 focus:border-${color}-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-${color}-500 dark:focus:border-${color}-500`}
+      className="max-w-lg bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+      onChange={handleSelectChange}
     >
       {options.map(item => (
         <option key={item.value} value={item.value}>

@@ -22,7 +22,7 @@ export default function ServicesHealthContent({
         isError={isError}
       />
 
-      <FooterTable />
+      <FooterTable onChange={() => null} />
     </>
   )
 }
